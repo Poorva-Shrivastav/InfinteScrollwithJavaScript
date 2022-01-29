@@ -1,6 +1,6 @@
 const mainContainer = document.querySelector(".main-container")
 
-const limit = 4;
+const limit = 6;
 let pageCount = 1;
 let postCount = 1;
 
@@ -35,7 +35,7 @@ const showData = () => {
     setTimeout(() => {
         pageCount++
         fetchAPI()
-    }, 00);
+    }, 100);
 }
 
 window.addEventListener('scroll', () => {
